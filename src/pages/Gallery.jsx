@@ -1,0 +1,45 @@
+import {useState} from "react";
+import img from '../assets/images/DSCF0145.JPG'
+
+export default function Gallery(){
+
+    const [selectedImage, setSelectedImage] = useState(null);
+    const images = [
+        "./assets/images/gallery.jpg",
+
+    ]
+
+    return (
+
+
+
+        <div>
+            <table>
+                <tbody>
+                <tr>
+                    <th>
+                        <img src={img}  />
+                    </th>
+                    <th>Contact</th>
+                    <th>Country</th>
+                </tr>
+                <tr>
+                    <td>Alfreds Futterkiste</td>
+                    <td>Maria Anders</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>Centro comercial Moctezuma</td>
+                    <td>Francisco Chang</td>
+                    <td>Mexico</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
+
+
+    )
+}
