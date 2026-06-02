@@ -1,5 +1,5 @@
 import {useState} from "react";
-import img from '../assets/images/DSCF0145.JPG'
+import img from '../assets/images/output.jpg'
 
 export default function Gallery(){
 
